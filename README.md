@@ -45,8 +45,8 @@ to find a bug, please let me know.
 To install the app and try it out yourself, do the following from the command line:
 
     cd <project-dir>
-    git clone https://github.com/clamytoe/challenges.git
-    cd challenges/16/clamytoe
+    https://github.com/clamytoe/Github-Profiler.git
+    cd Github-Profiler
     python3.6 -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
