@@ -1,6 +1,12 @@
-# GitHub Profiler
+# Github Profiler (*Github-Profiler*)
+> *This Flask application will create a profile page for any valid GitHub user name that is entered into the form. It pulls the information through GitHub's API and displays it in a resume type format.*
 
-This Flask application will create a profile page for any valid GitHub user name that is entered into the form. It pulls the information through GitHub's API and displays it in a resume type format.
+![Python version][python-version]
+![Latest version][latest-version]
+[![GitHub issues][issues-image]][issues-url]
+[![GitHub forks][fork-image]][fork-url]
+[![GitHub Stars][stars-image]][stars-url]
+[![License][license-image]][license-url]
 
 ## Description
 Currently it displays the following if it was made available:
@@ -62,3 +68,14 @@ I'm still learning, so there are things that I had to do that I wasn't too happy
 * I briefly thought about using [asyncio](https://docs.python.org/3/library/asyncio.html) for some of the API calls, but most of my calls are dependent upon the results of a previous one, so it wouldn't be too helpful.
 * Make a more professional looking front page. I went with just the plain form for speed.
 * Originally intended to add smaller images from the people that the account follows along with links to their accounts as profile lookups, but didn't do it because of how long the page was already taking to load.
+
+[python-version]:https://img.shields.io/badge/python-3.6+-brightgreen.svg
+[latest-version]:https://img.shields.io/badge/version-0.1.1-blue.svg
+[issues-image]:https://img.shields.io/github/issues/clamytoe/Github-Profiler.svg
+[issues-url]:https://github.com/clamytoe/Github-Profiler/issues
+[fork-image]:https://img.shields.io/github/forks/clamytoe/Github-Profiler.svg
+[fork-url]:https://github.com/clamytoe/Github-Profiler/network
+[stars-image]:https://img.shields.io/github/stars/clamytoe/Github-Profiler.svg
+[stars-url]:https://github.com/clamytoe/Github-Profiler/stargazers
+[license-image]:https://img.shields.io/github/license/clamytoe/Github-Profiler.svg
+[license-url]:https://github.com/clamytoe/Github-Profiler/blob/master/LICENSE
