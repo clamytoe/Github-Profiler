@@ -1,0 +1,10 @@
+name: gprofiler
+channels:
+  - defaults
+dependencies:
+  - click
+  - Flask
+  - Flask-SQLAlchemy
+  - Python>=3.6
+  - requests>=2.20.0
+  - SQLAlchemy
