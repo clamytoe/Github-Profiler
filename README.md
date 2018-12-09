@@ -47,9 +47,13 @@ To install the app and try it out yourself, do the following from the command li
     python3.6 -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
-    python app.py
 
-Now simply enter a GitHub user name into the input box and click on the *Search* button.
+If you are using Anaconda, simply do the following:
+
+    conda env create
+    source activate gprofiler
+
+Now simply start the application with `python run.py` and enter a GitHub user name into the input box and click on the *Search* button.
 
 ## ToDo
 I'm still learning, so there are things that I had to do that I wasn't too happy with and some that I wish I had more time to add. Here's a list of some of the main ones:
